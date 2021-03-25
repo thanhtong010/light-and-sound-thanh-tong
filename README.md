@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![Link to the video for my game](https://drive.google.com/file/d/1LYtN9syhh9-VjB4oQgdRsQQn8gqc2urC/view?usp=sharing)
+[Link to the video for my game](https://drive.google.com/file/d/1LYtN9syhh9-VjB4oQgdRsQQn8gqc2urC/view?usp=sharing)
 
 
 ## Reflection Questions
