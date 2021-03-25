@@ -53,14 +53,14 @@ A challenge that I encountered while creating this submission was when I was att
 After testing out how much time I should remove from the speed during each clue sequence, I decided that removing 75 (milliseconds) from each clue sequence playback
 was sufficient enough to make the game harder throughout the course of the game. However, after I won the game, I attempted to restart the game and the clueHoldTime
 was super short! I was not sure why this was the case, however, after looking at my startGame() function closely again, I realized that I had not initialized the clueHoldTime
-variable after I had changed it from a constant to a variable. I realized that because I had not initialized this variable in startGame(), clueHoldTime was still
-going to be the same time as it was in the last game. After locating the bug in my code, I fixed it by making sure to initialize clueHoldTime to 1000 in the startGame() function
+variable after I had changed it from a constant to a variable. Because clueHoldTime was not initialized in startGame(), it was still
+going to be the same time as it was in the last iteration of the clue playback from the previous game. After locating the bug in my code, I fixed it by making sure to initialize clueHoldTime to 1000 in the startGame() function
 (line 19 in script.js). Afterwards, I wanted to make sure that the bug was fixed, so I played the game twice to make sure that clueHoldTime was reset to 1000 at the beginning of the
 second game. When playing the game the second time in my test run, the bug was fixed and my game was working as intended.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-After completing my submission, I am more curious about how HTML, CSS, and Javascript files work together. I am interested in how to work with how more buttons works
+After completing my submission, I am more curious about how HTML, CSS, and Javascript files work together. I am interested to learn more about how buttons work
 in Javascript, and how you can make them clickable (and make buttons appear as images, etc.). I am also interested in the process of making a functioning website using HTML and CSS.
 After completing this project, it is clear that there is a lot that must go into the style.css file to create the intended design for a website, as well as creating the HTML file to create
 tabs, buttons, lists, etc. Furthermore, in order to make the tabs/buttons work properly for a website, there probably needs to be a Javascript file to link the tabs/buttons to their functionality.
